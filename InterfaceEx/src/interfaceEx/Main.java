@@ -7,7 +7,7 @@ public class Main {
 		int num;
 		Scanner input = new Scanner(System.in);
 		
-		
+		while(true) {
 		System.out.println("인사관리 프로그램");
 		System.out.println("1. 직원 관리");
 		System.out.println("2. 학생 관리");
@@ -32,5 +32,5 @@ public class Main {
 			break;
 		}
 	}
-
+	}
 }
