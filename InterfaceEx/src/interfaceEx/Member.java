@@ -40,7 +40,7 @@ public class Member {
           System.out.print("이름 입력: ");
           String name3 = input.next();
           if (list.contains(name3) == true) {
-            list.remove(name3);
+            list.remove(list.indexOf(name3));
             System.out.println(name3 + "회원이 삭제되었습니다.");
           } else {
             System.out.println("입력한 회원이 존재하지 않습니다.");
