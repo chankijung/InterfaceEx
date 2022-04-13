@@ -7,6 +7,8 @@ public class Main {
 		int num;
 		Scanner input = new Scanner(System.in);
 		
+		while(true) {
+		Ex01 aaa = new Ex01();
 		
 		System.out.println("인사관리 프로그램");
 		System.out.println("1. 직원 관리");
@@ -20,8 +22,8 @@ public class Main {
 				 m.menu();
 				 //직원관리 기능 추가(등록, 조회, 검색, 삭제)
 			break;
-		case 2 :
-			//학생관리 기능 추가(등록, 조회, 검색, 삭제)
+		case 2 : //학생관리 기능 추가(등록, 조회, 검색, 삭제)
+			aaa.memu();
 			break;
 		case 3 : 
 			//게시판관리 기능 추가(등록, 조회, 검색, 삭제)
@@ -32,5 +34,5 @@ public class Main {
 			break;
 		}
 	}
-
+	}
 }

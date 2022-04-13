@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Items {
+
 	public void menu() {
 
 		Scanner input = new Scanner(System.in);
@@ -27,6 +28,7 @@ public class Items {
 				}else {
 					System.out.println("이미 존재하는 상품입니다.");
 				}
+				
 				break;
 			case 2 :
 				System.out.println("상품 목록 조회");
